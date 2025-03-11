@@ -13,9 +13,6 @@
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-96" value="公共层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2067" y="723" width="473" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-97" value="数据访问层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1798" y="912" width="501" height="279" as="geometry" />
-        </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-98" value="业务层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2319" y="912" width="291" height="279" as="geometry" />
         </mxCell>
@@ -38,7 +35,7 @@
           <mxGeometry x="2024" y="937" width="240" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-105" value="数据访问接口&#xa;Access/Interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2068" y="1091" width="182" height="66" as="geometry" />
+          <mxGeometry x="2009" y="1091" width="182" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-106" value="数据模型&#xa;Access/Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1850" y="1091" width="159" height="66" as="geometry" />
@@ -84,9 +81,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-118" value="使用" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-104" target="FpCkW9Doc-dD-wXZZa6O-106">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-118" value="使用" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-97" target="FpCkW9Doc-dD-wXZZa6O-106">
+          <mxGeometry x="0.2049" y="-39" relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-119" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-100" target="FpCkW9Doc-dD-wXZZa6O-103">
@@ -203,6 +201,17 @@
             <mxPoint x="2690" y="1120" as="sourcePoint" />
             <mxPoint x="2740" y="1070" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-135" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-104" target="FpCkW9Doc-dD-wXZZa6O-97">
+          <mxGeometry x="0.2049" y="-39" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="2144" y="1003" as="sourcePoint" />
+            <mxPoint x="1930" y="1091" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-97" value="数据访问层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1798" y="910" width="501" height="279" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
