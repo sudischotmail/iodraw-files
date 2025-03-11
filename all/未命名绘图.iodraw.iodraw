@@ -140,7 +140,11 @@
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-126" value="工具支持" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.89;entryY=1;rounded=0;exitDx=0;exitDy=0;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-107" target="FpCkW9Doc-dD-wXZZa6O-100">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="2790" y="750" />
+              <mxPoint x="2940" y="720" />
               <mxPoint x="2870" y="720" />
+              <mxPoint x="2910" y="710" />
+              <mxPoint x="2880" y="710" />
               <mxPoint x="2920" y="710" />
             </Array>
           </mxGeometry>
