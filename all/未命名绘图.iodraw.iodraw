@@ -103,14 +103,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-121" value="使用" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=1;entryY=0.39;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-100" target="FpCkW9Doc-dD-wXZZa6O-107">
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-121" value="使用" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=1;entryY=0.39;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2886" y="687" />
-              <mxPoint x="2810" y="680" />
-              <mxPoint x="2770" y="700" />
-              <mxPoint x="2886" y="723" />
-            </Array>
+            <mxPoint x="2844.96" y="578.2599999999998" as="sourcePoint" />
+            <mxPoint x="2643.9999999999995" y="747.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-122" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=0.33;exitY=1;entryX=1;entryY=0.33;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-102" target="FpCkW9Doc-dD-wXZZa6O-105">
