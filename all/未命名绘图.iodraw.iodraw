@@ -17,7 +17,7 @@
           <mxGeometry x="1798" y="912" width="501" height="279" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-98" value="业务层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2319" y="912" width="954" height="279" as="geometry" />
+          <mxGeometry x="2319" y="912" width="291" height="279" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-99" value="UI层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2510" y="478.5" width="630" height="279" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry x="3133" y="1109" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-110" value="Oracle数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2960" y="1280" width="155" height="48" as="geometry" />
+          <mxGeometry x="2250" y="1280" width="155" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-111" value="评审计划管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1125" y="757" width="157" height="48" as="geometry" />
