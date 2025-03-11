@@ -50,7 +50,7 @@
           <mxGeometry x="3154" y="1200" width="119" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-109" value="工作流引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3440" y="1050" width="140" height="48" as="geometry" />
+          <mxGeometry x="3133" y="1109" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-110" value="Oracle数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2960" y="1280" width="155" height="48" as="geometry" />
