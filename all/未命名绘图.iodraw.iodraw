@@ -29,7 +29,7 @@
           <mxGeometry x="2969" y="748" width="124" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-102" value="业务逻辑层&#xa;Business/DomainService" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="937" width="233" height="66" as="geometry" />
+          <mxGeometry x="2357" y="937" width="233" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-103" value="业务接口层&#xa;Business/DomainInterface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2500" y="1220" width="247" height="66" as="geometry" />
@@ -126,6 +126,20 @@
               <mxPoint x="3222" y="1039" />
               <mxPoint x="3222" y="1075" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-124" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0;entryY=0.18;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-102" target="FpCkW9Doc-dD-wXZZa6O-108">
+          <mxGeometry x="-0.5587" y="-16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2620" y="1090" />
+              <mxPoint x="3166" y="1039" />
+              <mxPoint x="2980" y="1180" />
+              <mxPoint x="2910" y="1100" />
+              <mxPoint x="2880" y="1080" />
+              <mxPoint x="2930" y="1130" />
+              <mxPoint x="3166" y="1075" />
+            </Array>
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-125" value="访问" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=1;entryX=0;entryY=0.44;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-104" target="FpCkW9Doc-dD-wXZZa6O-110">
