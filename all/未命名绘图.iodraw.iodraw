@@ -38,7 +38,7 @@
           <mxGeometry x="2024" y="937" width="240" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-105" value="数据访问接口&#xa;Access/Interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1833" y="1100" width="182" height="66" as="geometry" />
+          <mxGeometry x="2204" y="1070" width="182" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-106" value="数据模型&#xa;Access/Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2065" y="1100" width="159" height="66" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry x="3133" y="1109" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-110" value="Oracle数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2250" y="1280" width="155" height="48" as="geometry" />
+          <mxGeometry x="2264" y="1290" width="155" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-111" value="评审计划管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1125" y="757" width="157" height="48" as="geometry" />
