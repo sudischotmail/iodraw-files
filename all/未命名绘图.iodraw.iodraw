@@ -17,7 +17,7 @@
           <mxGeometry x="2319" y="912" width="291" height="279" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-99" value="UI层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="478.5" width="630" height="279" as="geometry" />
+          <mxGeometry x="2510" y="478.5" width="630" height="151.5" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-100" value="Web界面层&#xa;UI/Web" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2756" y="520" width="139" height="66" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="1850" y="1091" width="159" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-107" value="通用工具类&#xa;Common/Util" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2540" y="773" width="157" height="66" as="geometry" />
+          <mxGeometry x="2487" y="730" width="157" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-108" value="RCS系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3154" y="1200" width="119" height="48" as="geometry" />
