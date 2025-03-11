@@ -1,9 +1,135 @@
 <mxfile host="" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="vb8Q6R8co8Q0gxYfmNyW">
-    <mxGraphModel dx="300" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nsloyLB44fA8oS_QZraq-1" value="数据层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="64" y="585" width="1096" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-2" value="业务层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="397" width="956" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-3" value="UI层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="298" y="208" width="677" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-4" value="Common工具层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1120" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-5" value="PrExcelTemplateHandler&#xa;Excel模板处理工具" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="45" width="236" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-6" value="PrMainPlanPBO&#xa;评审计划业务对象转换" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="884" y="45" width="221" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-7" value="WucCreatePr&#xa;评审创建控件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="576" y="233" width="157" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-8" value="FrmPrReport&#xa;评审报告页面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="333" y="233" width="156" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-9" value="其他页面组件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="783" y="242" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-10" value="PrMainPlanBLL&#xa;评审计划业务逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="545" y="422" width="189" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-11" value="PrReportBLL&#xa;评审报告业务逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="98" y="422" width="189" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-12" value="其他业务逻辑" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="784" y="431" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-13" value="PrMainPlanDAL&#xa;评审计划数据访问" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="739" y="610" width="188" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-14" value="PrReportDAL&#xa;评审报告数据访问" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="99" y="610" width="188" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-15" value="提供Excel导入导出" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.88;entryX=0.25;entryY=0.01;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-5" target="nsloyLB44fA8oS_QZraq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="136" />
+              <mxPoint x="585" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-16" value="提供Excel处理" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-5" target="nsloyLB44fA8oS_QZraq-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-17" value="Excel数据转换" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0;entryY=0.3;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-5" target="nsloyLB44fA8oS_QZraq-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="224" y="136" />
+              <mxPoint x="224" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-18" value="报表生成" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.24;entryY=0;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-5" target="nsloyLB44fA8oS_QZraq-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="136" />
+              <mxPoint x="105" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-19" value="对象转换" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0.84;entryY=0;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-6" target="nsloyLB44fA8oS_QZraq-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1058" y="136" />
+              <mxPoint x="1058" y="361" />
+              <mxPoint x="754" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-20" value="数据转换" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=1;entryX=1;entryY=0.18;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-6" target="nsloyLB44fA8oS_QZraq-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1003" y="136" />
+              <mxPoint x="1003" y="361" />
+              <mxPoint x="1086" y="397" />
+              <mxPoint x="1086" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-21" value="界面数据绑定" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.99;entryY=0.01;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-6" target="nsloyLB44fA8oS_QZraq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="789" y="136" />
+              <mxPoint x="789" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-22" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.54;entryY=0;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-7" target="nsloyLB44fA8oS_QZraq-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-23" value="调用" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=1;entryY=0.12;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-8" target="nsloyLB44fA8oS_QZraq-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-24" value="访问数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.08;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-10" target="nsloyLB44fA8oS_QZraq-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsloyLB44fA8oS_QZraq-25" value="访问数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="nsloyLB44fA8oS_QZraq-11" target="nsloyLB44fA8oS_QZraq-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
