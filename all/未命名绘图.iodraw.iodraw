@@ -137,13 +137,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-126" value="工具支持" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.89;entryY=1;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-107" target="FpCkW9Doc-dD-wXZZa6O-100">
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-126" value="工具支持" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.89;entryY=1;rounded=0;exitDx=0;exitDy=0;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-107" target="FpCkW9Doc-dD-wXZZa6O-100">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2959" y="723" />
-              <mxPoint x="2920" y="720" />
-              <mxPoint x="2940" y="700" />
-              <mxPoint x="2959" y="687" />
+              <mxPoint x="2870" y="720" />
+              <mxPoint x="2920" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
