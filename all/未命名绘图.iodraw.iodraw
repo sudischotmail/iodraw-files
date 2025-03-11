@@ -137,8 +137,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-126" value="工具支持" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.89;entryY=1;rounded=0;exitDx=0;exitDy=0;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-107" target="FpCkW9Doc-dD-wXZZa6O-100">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-126" value="工具支持" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.89;entryY=1;rounded=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-107" target="FpCkW9Doc-dD-wXZZa6O-100">
+          <mxGeometry x="0.2141" y="-34" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-127" value="工具支持" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-107" target="FpCkW9Doc-dD-wXZZa6O-102">
           <mxGeometry relative="1" as="geometry">
