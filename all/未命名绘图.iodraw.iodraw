@@ -38,10 +38,10 @@
           <mxGeometry x="2024" y="937" width="240" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-105" value="数据访问接口&#xa;Access/Interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2204" y="1070" width="182" height="66" as="geometry" />
+          <mxGeometry x="2068" y="1091" width="182" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-106" value="数据模型&#xa;Access/Model" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2065" y="1100" width="159" height="66" as="geometry" />
+          <mxGeometry x="1850" y="1091" width="159" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-107" value="通用工具类&#xa;Common/Util" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2229" y="748" width="157" height="66" as="geometry" />
