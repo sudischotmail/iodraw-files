@@ -8,7 +8,7 @@
           <mxGeometry x="1090" y="723" width="957" height="116" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-95" value="外部系统集成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3293" y="1075" width="583" height="116" as="geometry" />
+          <mxGeometry x="3308" y="910" width="583" height="116" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-96" value="公共层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2067" y="723" width="473" height="116" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="2357" y="937" width="233" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-103" value="业务接口层&#xa;Business/DomainInterface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2590" y="1191" width="247" height="66" as="geometry" />
+          <mxGeometry x="2500" y="1220" width="247" height="66" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-104" value="数据访问实现&#xa;Access/OracleImplement" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2024" y="937" width="240" height="66" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry x="3497" y="1109" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-110" value="Oracle数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3687" y="1109" width="155" height="48" as="geometry" />
+          <mxGeometry x="3380" y="1238" width="155" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-111" value="评审计划管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1125" y="757" width="157" height="48" as="geometry" />
