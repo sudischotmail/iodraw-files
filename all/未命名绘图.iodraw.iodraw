@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-94" value="PR业务模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="723" width="957" height="116" as="geometry" />
+          <mxGeometry x="1170" y="560" width="957" height="116" as="geometry" />
         </mxCell>
         <mxCell id="FpCkW9Doc-dD-wXZZa6O-95" value="外部系统集成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3308" y="910" width="583" height="116" as="geometry" />
@@ -81,9 +81,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-118" value="使用" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-97" target="FpCkW9Doc-dD-wXZZa6O-106">
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-118" value="使用" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="FpCkW9Doc-dD-wXZZa6O-106">
           <mxGeometry x="0.2049" y="-39" relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="2048.5" y="1189" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -202,16 +203,13 @@
             <mxPoint x="2740" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-135" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-104" target="FpCkW9Doc-dD-wXZZa6O-97">
+        <mxCell id="FpCkW9Doc-dD-wXZZa6O-135" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="FpCkW9Doc-dD-wXZZa6O-104">
           <mxGeometry x="0.2049" y="-39" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="2144" y="1003" as="sourcePoint" />
-            <mxPoint x="1930" y="1091" as="targetPoint" />
+            <mxPoint x="2048.5" y="910" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FpCkW9Doc-dD-wXZZa6O-97" value="数据访问层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1798" y="910" width="501" height="279" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
