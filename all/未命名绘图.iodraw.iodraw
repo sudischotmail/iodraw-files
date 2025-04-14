@@ -4,6 +4,74 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="576" as="geometry" />
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-2" value="Frontend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="576" as="geometry" />
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-3" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="475" y="20" width="150" height="576" as="geometry" />
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-4" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="675" y="20" width="150" height="576" as="geometry" />
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-5" value="填写订单信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-1" target="wxayF8OpLdQkEnoe4QwH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-6" value="POST /api/purchase-order" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-2" target="wxayF8OpLdQkEnoe4QwH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="431" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-7" value="生成订单编号" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-3" target="wxayF8OpLdQkEnoe4QwH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="659" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-8" value="保存订单头" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-3" target="wxayF8OpLdQkEnoe4QwH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="659" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-9" value="保存订单明细" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-3" target="wxayF8OpLdQkEnoe4QwH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="659" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-10" value="返回保存结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-4" target="wxayF8OpLdQkEnoe4QwH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-11" value="返回成功信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-3" target="wxayF8OpLdQkEnoe4QwH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxayF8OpLdQkEnoe4QwH-12" value="显示成功提示" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="wxayF8OpLdQkEnoe4QwH-2" target="wxayF8OpLdQkEnoe4QwH-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
